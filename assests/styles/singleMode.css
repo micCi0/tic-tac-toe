@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Comfortaa:wght@300;400;600&family=Darumadrop+One&family=Inconsolata:wght@300;600;700;800;900&family=Inspiration&family=Josefin+Sans:wght@400;500&family=Kalam&family=Kanit:ital,wght@0,500;1,300&family=Lato&family=Lemon&family=Lobster&family=Mochiy+Pop+One&family=Montserrat:wght@500;600;700&family=MuseoModerno:ital,wght@0,200;0,300;0,400;0,500;0,900;1,200;1,300;1,400&family=Noto+Sans:wght@600&family=Open+Sans:wght@400;500;600&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,100;1,400&display=swap');
+.wrapper .control .button button{
+    padding: 5px 20px;
+    font-size: 22px;
+}
+.control.hide{
+    display: none;
+}
+.game{
+    margin: 15px 0;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+    display: none;
+}
+.game.show{
+    display: grid;;
+}
+.game .option{
+    border: 1px solid  rgb(0, 100, 147);
+    min-width: 70px;
+    min-height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.game .option.playerO{
+    font-size: 40px;
+    color: green;
+}
+.game .option.playerX{
+    font-size: 40px;
+    color:red;
+}
+.restart{
+    padding: 5px 20px;
+    font-size: 16px;
+    background-color: rgb(0, 100, 147);
+    color: #ffff;
+    padding: 6px 9px ;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    display: none;
+    margin: 25px auto;
+}
+.restart.show{
+    display: block;
+}
+.link{
+    display: block;
+}
